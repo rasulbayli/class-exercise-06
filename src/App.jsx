@@ -16,11 +16,15 @@ function App() {
       <p>
         <b>Name:</b> Rasul Dadashbayli
       </p>
+
       <p>
         <b>Student ID:</b> 101527648
       </p>
       <p>
         <b>Course:</b> COMP3104 - DevOps
+      </p>
+      <p>
+        <b>Program:</b> Computer Programming & Analysis
       </p>
       <p>
         <b>College:</b> George Brown Polytechnic

@@ -1,16 +1,16 @@
-# React + Vite
+# Class Exercise 06 – Hosting SPA on GitHub Pages
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Student:** Rasul Dadashbayli (101527648)
+**Course:** COMP3104 – DevOps, George Brown Polytechnic
 
-Currently, two official plugins are available:
+**Live site:** https://rasulbayli.github.io/class-exercise-06/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What this project does
+- React single-page app built with Vite
+- Deployed to GitHub Pages using the `gh-pages` package (`npm run deploy`)
+- Automatically built and deployed by a GitHub Actions workflow on every push to `main`
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Commands
+    npm install
+    npm run dev
+    npm run deploy
